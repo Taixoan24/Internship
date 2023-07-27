@@ -1,0 +1,248 @@
+body {
+    background: #F6FAFD;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 94px;
+}
+
+.container {
+    max-width: 620px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.mark-text,
+.angela-text,
+.jacob-text,
+.risky-text,
+.kimbly-text,
+.nathan-text,
+.anna-text {
+    display: flex;
+    gap: 16px;
+    color: #1C202B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+
+.mark-text,
+.jacob-text,
+.angela-text {
+    background-color: #F7FAFD;
+    border-radius: 8px;
+}
+
+.acounts {
+    padding: 0px 16px 56px;
+    width: 588px;
+    cursor: pointer;
+}
+
+.mark-text,
+.angela-text,
+.jacob-text,
+.risky-text,
+.kimbly-text,
+.nathan-text,
+.anna-text {
+    margin-bottom: 16px;
+    padding: 16px 15px;
+}
+
+.name {
+    color: #1C202B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+
+.title {
+    color: #5E6778;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.subtitle {
+    color: #5E6778;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.2px;
+}
+
+.introduce-risky {
+    color: #5E6778;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+    border-radius: 4.8px;
+    border: 1px solid #E5EFFA;
+}
+
+.introduce-risky div {
+    padding: 17px 43px 16px 17px;
+}
+
+.Kimbly-img {
+    display: flex;
+}
+
+.img-left {
+    display: flex;
+    margin-left: 190px;
+}
+
+.header-notification {
+    padding-left: 16px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-read {
+    color: #5E6778;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 30px 16px;
+    cursor: pointer;
+}
+
+.header-count {
+    border-radius: 8px;
+    background: #0A317B;
+    color: #FFFFFF;
+    padding: 4px 9px;
+    font-size: 18px;
+    color: #DDE7EE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    gap: 10PX;
+    padding: 26px 0px 23px 16px;
+}
+
+.time {
+    display: block;
+    color: #939DAE;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.risky-text img {
+    margin-top: -84px;
+}
+
+/* 
+Responsive Mobile */
+@media(max-width:768px) {
+    .container {
+        width: 400px;
+    }
+    .header-count {
+        color: #DDE7EE;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .acounts {
+        padding: 0px 16px 56px;
+        width: 368px;
+    }
+    body {
+        height: auto;
+    }
+
+    .text-title-nathan {
+        padding-top: 30px;
+    }
+
+    .header_main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header {
+        display: flex;
+        gap: 10PX;
+        padding: 26px 0px 28px 16px;
+    }
+    .header-count {
+        border-radius: 8px;
+        background: #0A317B;
+        color: #FFFFFF;
+        padding: 3px 9px;
+    }
+    .introduce-risky div {
+        padding: 17px 17px 16px 17px;
+    }
+    .mark-text,
+    .angela-text,
+    .jacob-text,
+    .risky-text,
+    .kimbly-text,
+    .nathan-text,
+    .anna-text {
+        padding: 16px 20px 16px 16px;
+    }
+
+    .risky-text img {
+        margin-top: -172px;
+    }
+
+    .nathan-text {
+        margin-top: -40px;
+    }
+
+    .img-left {
+        margin-right: 6px;
+        margin-left: 0px;
+    }
+
+    .risky-text img {
+        margin-top: -122px;
+    }
+
+    .header-main {
+        padding-top: 24px;
+    }
+
+    body {
+        background: #F6FAFD;
+        font-family: 'Roboto';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
